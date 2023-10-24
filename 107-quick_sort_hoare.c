@@ -6,7 +6,7 @@ void hoare_sort(int *array, size_t size, int left, int right);
 void quick_sort_hoare(int *array, size_t size);
 
 /**
- * swap_ints - Swap two integers in an array.
+ * swap_ints - Shift two integers in an array.
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
@@ -78,7 +78,7 @@ void hoare_sort(int *array, size_t size, int left, int right)
 }
 
 /**
- * quick_sort_hoare - Sort an array of integers in ascending
+ * quick_sort_hoare - put an array of integers in ascending
  *                    order using the quicksort algorithm.
  * @array: An array of integers.
  * @size: The size of the array.
