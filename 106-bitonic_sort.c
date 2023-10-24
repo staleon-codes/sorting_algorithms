@@ -7,7 +7,7 @@ void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow);
 void bitonic_sort(int *array, size_t size);
 
 /**
- * swap_ints - Swap two integers in an array.
+ * swap_ints - switch two integers in an array.
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
@@ -74,7 +74,7 @@ void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow)
 }
 
 /**
- * bitonic_sort - Sort an array of integers in ascending
+ * bitonic_sort - put an array of integers in ascending
  *                order using the bitonic sort algorithm.
  * @array: An array of integers.
  * @size: The size of the array.
